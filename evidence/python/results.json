@@ -1,0 +1,413 @@
+{
+  "a": {
+    "n": 1130,
+    "confusion": [
+      [
+        211,
+        15
+      ],
+      [
+        472,
+        432
+      ]
+    ],
+    "accuracy": 0.5690265486725664,
+    "balanced_accuracy": 0.7057522123893806,
+    "f1_macro": 0.5518863507372203,
+    "kappa": 0.23403586033343826,
+    "recall_by_class": [
+      0.9336283185840708,
+      0.4778761061946903
+    ],
+    "precision_by_class": [
+      0.3089311859443631,
+      0.9664429530201343
+    ],
+    "f1_by_class": [
+      0.46424642464246424,
+      0.6395262768319763
+    ],
+    "sensitivity": 0.4778761061946903,
+    "specificity": 0.9336283185840708,
+    "precision_fault": 0.9664429530201343,
+    "fn": 472,
+    "fp": 15,
+    "fn_over_fp": 31.466666666666665
+  },
+  "b": {
+    "n": 1130,
+    "confusion": [
+      [
+        202,
+        24
+      ],
+      [
+        652,
+        252
+      ]
+    ],
+    "accuracy": 0.40176991150442476,
+    "balanced_accuracy": 0.5862831858407079,
+    "f1_macro": 0.4005963590709353,
+    "kappa": 0.08450704225352111,
+    "recall_by_class": [
+      0.8938053097345132,
+      0.27876106194690264
+    ],
+    "precision_by_class": [
+      0.23653395784543327,
+      0.9130434782608695
+    ],
+    "f1_by_class": [
+      0.37407407407407406,
+      0.4271186440677966
+    ],
+    "sensitivity": 0.27876106194690264,
+    "specificity": 0.8938053097345132,
+    "precision_fault": 0.9130434782608695,
+    "fn": 652,
+    "fp": 24,
+    "fn_over_fp": 27.166666666666668
+  },
+  "multiclass_a": {
+    "n": 1130,
+    "confusion": [
+      [
+        211,
+        1,
+        0,
+        7,
+        7
+      ],
+      [
+        73,
+        113,
+        0,
+        31,
+        9
+      ],
+      [
+        122,
+        15,
+        32,
+        5,
+        52
+      ],
+      [
+        126,
+        8,
+        0,
+        76,
+        16
+      ],
+      [
+        151,
+        7,
+        20,
+        7,
+        41
+      ]
+    ],
+    "accuracy": 0.41858407079646015,
+    "balanced_accuracy": 0.4185840707964602,
+    "f1_macro": 0.394141895645564,
+    "kappa": 0.2732300884955752,
+    "recall_by_class": [
+      0.9336283185840708,
+      0.5,
+      0.1415929203539823,
+      0.336283185840708,
+      0.18141592920353983
+    ],
+    "precision_by_class": [
+      0.3089311859443631,
+      0.7847222222222222,
+      0.6153846153846154,
+      0.6031746031746031,
+      0.328
+    ],
+    "f1_by_class": [
+      0.46424642464246424,
+      0.6108108108108108,
+      0.2302158273381295,
+      0.4318181818181818,
+      0.2336182336182336
+    ]
+  },
+  "exploratory_contrast": {
+    "difference_ba_a_minus_b": 0.11946902654867257,
+    "one_sided_cluster_sign_p": 0.0625,
+    "patterns": 32,
+    "relevant_delta": 0.02,
+    "decision": "superiority not demonstrated",
+    "conditional_block_bootstrap_95_percent": {
+      "a": [
+        0.683075221238938,
+        0.728429203539823
+      ],
+      "b": [
+        0.5583932522123893,
+        0.6141731194690265
+      ],
+      "difference": [
+        0.09513274336283184,
+        0.14380530973451322
+      ]
+    },
+    "limitation": "Only five records, one per condition. Conditional sign exchangeability and within-record resampling; no inference to new sessions."
+  },
+  "development_cv": {
+    "a": {
+      "n": 2256,
+      "confusion": [
+        [
+          420,
+          29
+        ],
+        [
+          836,
+          971
+        ]
+      ],
+      "accuracy": 0.6165780141843972,
+      "balanced_accuracy": 0.7363833791626969,
+      "f1_macro": 0.59225522285614,
+      "kappa": 0.28218724987052124,
+      "recall_by_class": [
+        0.9354120267260579,
+        0.5373547315993359
+      ],
+      "precision_by_class": [
+        0.3343949044585987,
+        0.971
+      ],
+      "f1_by_class": [
+        0.49266862170087977,
+        0.6918418240114
+      ],
+      "sensitivity": 0.5373547315993359,
+      "specificity": 0.9354120267260579,
+      "precision_fault": 0.971,
+      "fn": 836,
+      "fp": 29,
+      "fn_over_fp": 28.82758620689655
+    },
+    "b": {
+      "n": 2256,
+      "confusion": [
+        [
+          421,
+          28
+        ],
+        [
+          1268,
+          539
+        ]
+      ],
+      "accuracy": 0.425531914893617,
+      "balanced_accuracy": 0.6179618237909245,
+      "f1_macro": 0.42395596826550175,
+      "kappa": 0.11577732575335553,
+      "recall_by_class": [
+        0.9376391982182628,
+        0.29828444936358606
+      ],
+      "precision_by_class": [
+        0.2492599171107164,
+        0.9506172839506173
+      ],
+      "f1_by_class": [
+        0.3938260056127222,
+        0.45408593091828137
+      ],
+      "sensitivity": 0.29828444936358606,
+      "specificity": 0.9376391982182628,
+      "precision_fault": 0.9506172839506173,
+      "fn": 1268,
+      "fp": 28,
+      "fn_over_fp": 45.285714285714285
+    }
+  },
+  "counts": [
+    {
+      "partition": "development",
+      "condition": "Damaged_LR",
+      "block": 1,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Damaged_LR",
+      "block": 2,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Damaged_LR",
+      "block": 3,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Damaged_LR",
+      "block": 4,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Damaged_UR",
+      "block": 1,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Damaged_UR",
+      "block": 2,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Damaged_UR",
+      "block": 3,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Damaged_UR",
+      "block": 4,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Healthy",
+      "block": 1,
+      "n": 112
+    },
+    {
+      "partition": "development",
+      "condition": "Healthy",
+      "block": 2,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Healthy",
+      "block": 3,
+      "n": 112
+    },
+    {
+      "partition": "development",
+      "condition": "Healthy",
+      "block": 4,
+      "n": 112
+    },
+    {
+      "partition": "development",
+      "condition": "Unbalanced_LR",
+      "block": 1,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Unbalanced_LR",
+      "block": 2,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Unbalanced_LR",
+      "block": 3,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Unbalanced_LR",
+      "block": 4,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Unbalanced_UR",
+      "block": 1,
+      "n": 112
+    },
+    {
+      "partition": "development",
+      "condition": "Unbalanced_UR",
+      "block": 2,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Unbalanced_UR",
+      "block": 3,
+      "n": 113
+    },
+    {
+      "partition": "development",
+      "condition": "Unbalanced_UR",
+      "block": 4,
+      "n": 113
+    },
+    {
+      "partition": "test",
+      "condition": "Damaged_LR",
+      "block": 1,
+      "n": 113
+    },
+    {
+      "partition": "test",
+      "condition": "Damaged_LR",
+      "block": 2,
+      "n": 113
+    },
+    {
+      "partition": "test",
+      "condition": "Damaged_UR",
+      "block": 1,
+      "n": 113
+    },
+    {
+      "partition": "test",
+      "condition": "Damaged_UR",
+      "block": 2,
+      "n": 113
+    },
+    {
+      "partition": "test",
+      "condition": "Healthy",
+      "block": 1,
+      "n": 113
+    },
+    {
+      "partition": "test",
+      "condition": "Healthy",
+      "block": 2,
+      "n": 113
+    },
+    {
+      "partition": "test",
+      "condition": "Unbalanced_LR",
+      "block": 1,
+      "n": 113
+    },
+    {
+      "partition": "test",
+      "condition": "Unbalanced_LR",
+      "block": 2,
+      "n": 113
+    },
+    {
+      "partition": "test",
+      "condition": "Unbalanced_UR",
+      "block": 1,
+      "n": 113
+    },
+    {
+      "partition": "test",
+      "condition": "Unbalanced_UR",
+      "block": 2,
+      "n": 113
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "config": {
+    "version": "BTF25-v1-fragmentos-500",
+    "fs_hz": 1024.0,
+    "n_samples": 500,
+    "highpass_hz": 10.0,
+    "lowpass_hz": 409.6,
+    "butterworth_order": 4,
+    "analysis_band_hz": [
+      10.0,
+      409.6
+    ],
+    "reference_band_hz": [
+      10.0,
+      100.0
+    ],
+    "comparison_band_hz": [
+      140.0,
+      200.0
+    ],
+    "gap_factor": 1.5,
+    "numeric_energy_floor": 1e-12,
+    "scale_floor": 1e-12,
+    "healthy_percentile": 0.95,
+    "alarm_percentile": 0.99,
+    "development_intervals_s": [
+      [
+        10,
+        70
+      ],
+      [
+        70,
+        130
+      ],
+      [
+        130,
+        190
+      ],
+      [
+        190,
+        250
+      ]
+    ],
+    "test_intervals_s": [
+      [
+        252,
+        312
+      ],
+      [
+        312,
+        372
+      ]
+    ],
+    "physical_gap_s": [
+      250,
+      252
+    ],
+    "cv_purge_seconds": 2.0,
+    "primary_metric": "binary_balanced_accuracy",
+    "alpha_exploratory": 0.05,
+    "proposed_relevant_difference": 0.02,
+    "noise_snr_db": [
+      30,
+      20,
+      15,
+      10
+    ],
+    "noise_seeds": [
+      42,
+      101,
+      202,
+      303,
+      404,
+      505,
+      606,
+      707,
+      808,
+      909
+    ],
+    "class_order": [
+      "Healthy",
+      "Damaged_LR",
+      "Damaged_UR",
+      "Unbalanced_LR",
+      "Unbalanced_UR"
+    ],
+    "processing": "demean; periodic Hann; FFT; spectral magnitude weighting abs(H_HP*H_LP)^2; integration 1/(i*2*pi*f); Hann power correction; DC/Nyquist zero",
+    "scope": "new computational proposal; internal exploratory evaluation on the five uploaded records"
+  },
+  "input_hashes": [
+    {
+      "condition": "Healthy",
+      "filename": "Healthy.xlsx",
+      "sha256": "9aee03af22b440bd701a2bf692cc2cf0178c33e1a76b1f41a1c0e06d5c857429",
+      "rows": 398945
+    },
+    {
+      "condition": "Damaged_LR",
+      "filename": "Damaged Bottom Right Blade.xlsx",
+      "sha256": "b638095ebe3cab60eecf0b51ba74f05a09a1d56005aabca0399d14b918e1f933",
+      "rows": 399999
+    },
+    {
+      "condition": "Damaged_UR",
+      "filename": "Damaged Top Right Blade.xlsx",
+      "sha256": "737c7084fe656b6d31f3d592737a90ffbb668ae95526ac0b4a0665cdc4d8c70e",
+      "rows": 400000
+    },
+    {
+      "condition": "Unbalanced_LR",
+      "filename": "Unbalanced Bottom Right Blade.xlsx",
+      "sha256": "48d9fb396202020a598022b885b513847df1f3a5f43fc2c3459557e2774b6d17",
+      "rows": 400000
+    },
+    {
+      "condition": "Unbalanced_UR",
+      "filename": "Unbalanced Top Right Blade.xlsx",
+      "sha256": "5997930f36c68e06d785a3abc18fd1ec7ed7b05225f0852ca327131c5ca03a90",
+      "rows": 400000
+    }
+  ],
+  "code_sha256": {
+    "test_rules.py": "e4c29335821ba74df986b364e7b0e0ac48063b33ffc8ad1c650df8b956f644a5",
+    "audit_dataset.py": "2df28f88a611c6204e378a9e7d4e1d69c9a5dd1b88d345c3016c4a01fd1f17f3",
+    "run_pipeline.py": "b4c4fa296b0a05e7e6746ab1a98a585793c1fbf21937905be488c711900eff52",
+    "btf25.py": "55ebe999aaeac24761df04b741266e2ac622dedbdf522a926c0a356a762424bc"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "test_used_for_fitting": false
+}

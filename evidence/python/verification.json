@@ -1,0 +1,9 @@
+{
+  "synthetic_interior_pass": true,
+  "parseval_checked_every_fragment": true,
+  "zero_signal_pass": true,
+  "nan_rejected": true,
+  "manual_confusion_pass": true,
+  "boundary_limitation": "12.288 Hz: about 3.83% phase-dependent error; no 1% full-band accuracy claim",
+  "matlab_executed": false
+}

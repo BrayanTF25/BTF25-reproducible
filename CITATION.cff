@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite este software y el dataset original por separado. DOI del software pendiente de publicación."
+title: "BTF25: clasificación de vibraciones del DJI Mini 2"
+version: "1.0.0"
+type: software
+authors:
+  - family-names: "Tafur Falcón"
+    given-names: "Brayan J."
+license: MIT

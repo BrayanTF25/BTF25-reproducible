@@ -1,0 +1,10 @@
+frequency_hz,max_relative_error,criterion,pass_required
+12.288,0.03827023635262983,boundary characterization,
+20.48,0.0044431360161554245,boundary characterization,
+40.96,0.0012538880341685932,interior <1%,True
+81.92,0.0003127763997341493,interior <1%,True
+159.744,8.220090492905285e-05,interior <1%,True
+163.84,7.814103888192925e-05,interior <1%,True
+216.67,4.465825905630716e-05,interior <1%,True
+327.68,1.1652141484352896e-05,interior <1%,True
+399.36,4.7889370193843206e-05,interior <1%,True

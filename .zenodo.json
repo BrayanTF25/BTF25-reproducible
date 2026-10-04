@@ -1,0 +1,19 @@
+{
+  "title": "BTF25: clasificación de vibraciones del DJI Mini 2",
+  "upload_type": "software",
+  "description": "Código Python y MATLAB, parámetros congelados y evidencias de evaluación interna sobre cinco registros. Contraste exploratorio; no acredita seguridad operacional ni generalización a nuevos vuelos.",
+  "creators": [
+    {
+      "name": "Tafur Falcón, Brayan J."
+    }
+  ],
+  "license": "mit",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.6084/m9.figshare.28765640.v1",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    }
+  ]
+}

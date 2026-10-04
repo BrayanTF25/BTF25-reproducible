@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+python/temporary_arrays/
+python/results/
+*.xlsx
+Data.zip

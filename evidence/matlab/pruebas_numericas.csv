@@ -1,0 +1,29 @@
+name,error,tolerance,passed
+Hann power,0,1e-14,1
+Hann coherent gain,0,1e-14,1
+Hann ENBW,0,1e-12,1
+FFT exact sinusoid,3.04983544277429e-12,1e-09,1
+Integration sign phase units,5.48450174164827e-14,1e-10,1
+Filter analytic reference,1.74527059471075e-13,1e-08,1
+Independent DFT RMS,8.43769498715119e-15,1e-08,1
+Independent DFT band energies,3.95239396766556e-14,1e-08,1
+Amplitude scaling,7.105427357601e-15,1e-08,1
+DC removal,2.22044604925031e-16,1e-08,1
+Axis permutation,0,1e-10,1
+Constant input,1.49590349262433e-29,1e-12,1
+Energy outside descriptor bands,0,0,1
+Interior sinus 40.960 Hz,0.00125388803416349,0.01,1
+Interior sinus 81.920 Hz,0.000312776399734149,0.01,1
+Interior sinus 159.744 Hz,8.22009049292749e-05,0.01,1
+Interior sinus 163.840 Hz,7.81410388825954e-05,0.01,1
+Interior sinus 216.670 Hz,4.46582590563072e-05,0.01,1
+Interior sinus 327.680 Hz,1.16521414827986e-05,0.01,1
+Interior sinus 399.360 Hz,4.7889370197618e-05,0.01,1
+Binary confusion,0,0,1
+Binary accuracy,0,1e-14,1
+Binary BA,1.11022302462516e-16,1e-14,1
+Binary F1,0,1e-14,1
+Binary Kappa,1.11022302462516e-16,1e-14,1
+Multiclass BA,1.11022302462516e-16,1e-14,1
+Multiclass F1,1.11022302462516e-16,1e-14,1
+Multiclass Kappa,0,1e-14,1
