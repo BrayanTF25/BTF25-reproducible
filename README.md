@@ -47,8 +47,8 @@ Sensibilidad BTF25 47,7876 %: la mejora descriptiva no demuestra superioridad es
 
 ## Licencia y cita
 
-Código de este paquete: MIT. Datos externos: CC0 1.0. Consultar THIRD_PARTY_NOTICES.md. Citar dataset y software por separado. CITATION.cff y .zenodo.json están preparados para la publicación. El DOI del software y la URL remota están pendientes: el DOI de Figshare pertenece al dataset, no a BTF25.
+Código de este paquete: MIT. Datos externos: CC0 1.0. Consultar THIRD_PARTY_NOTICES.md. Citar dataset y software por separado. El DOI de Figshare identifica únicamente el conjunto de datos. El software se identifica por su versión 1.0.0, su etiqueta v1.0.0 y su DOI propio, que se asigna al archivarlo en Zenodo.
 
 ## Publicación
 
-Crear un repositorio nuevo `BTF25-reproducible` en la cuenta del autor, subir este contenido y conservar la etiqueta `v1.0.0`. El repositorio local también se conserva en el archivo bundle. Publicar el ZIP en Zenodo como Software, con versión 1.0.0, autor y licencia indicados. Registrar el DOI emitido, URL pública, commit y fecha de publicación. Una URL propuesta o un DOI reservado no acredita publicación terminada.
+Este repositorio es la publicación pública de la versión 1.0.0 del paquete. El release v1.0.0 se archiva en Zenodo como software, con el autor, la versión y la licencia indicados en CITATION.cff y .zenodo.json. Los scripts complementarios de la tesis (apartados J.7 a J.9 del Anexo J) no forman parte de este paquete.
